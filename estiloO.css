@@ -1,0 +1,86 @@
+
+div{
+  width: 300px;
+  height: 200px;
+  margin: 200px;
+  background-image: url("https://placekitten.com/200/200");
+  transition: height 4s, width 3s;
+}
+
+div:hover{
+  height:400px;
+  width: 300px;
+}
+
+/* gradiente*/
+.gradiente{
+  background-image: url("https://placedog.net/640/480?random");
+}
+.fondoColor{
+  background-color: rgb(106, 24, 199);
+  }
+  .letra{
+    font-size: 35px;
+    color: #5a3d5a;
+}
+p{
+  font-size: 25px;
+  color: #c797c7;
+}
+
+/* equipo*/
+/* GRID*/
+div div{
+  border: solid 1px black;
+}
+.container {
+display: grid;
+grid-template-areas: "menu cabeza cabeza" "menu main main" "menu pie pie";
+/*grid-template-columns: repeat(4, 2fr);*/
+/*grid-template-rows: repeat(4, 2fr);*/
+/*grid-template-columns: 2fr 1fr 3fr 5fr; */ /*columnas*/  /*grid-template-rows: 100px 500px;*/ /*filas*/
+
+}
+.a{
+  grid-area:cabeza;
+  background-color: blue;
+}
+
+.b{
+  grid-area:pie;
+  background-color: rgb(2, 46, 20);
+}
+
+.c{
+  grid-area:main;
+  background-color: rgb(158, 87, 40);
+}
+
+.d{
+  grid-area:menu;
+  background-color: blue;
+}
+div:hover{
+  height:400px;
+  width: 300px;
+}
+
+/* gradiente*/
+.gradiente{
+  background-image: url("https://placedog.net/640/480?random");
+}
+.comentarios{
+  border: solid 4px rgb(59, 34, 201);
+color: rgb(240, 193, 8);
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+
+  background-color:rgb(31, 16, 117);
+  border-radius: 10px;
+  width: 100%; 
+  height: 300px; 
+overflow: auto;
+padding:20px 5px 10px 20px;
+  
+}
